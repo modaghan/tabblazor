@@ -317,7 +317,7 @@ namespace TabBlazor
             {
                 var result = await modalService.ShowDialogAsync(new DialogOptions
                 {
-                    MainText = "Are you sure you want to delete?",
+                    MainText = "Silmek istediğinizden emin misiniz?",
                     IconType = InternalIcons.Alert_triangle,
                     StatusColor = TablerColor.Danger
                 });

@@ -32,10 +32,11 @@
     {
         <td>
             <div class="row-action-edit">
-                <button class="btn btn-primary btn-sm" @onclick:stopPropagation type="submit" disabled="@(!InlineEditTable.IsRowValid)">Save</button>
-                <button class="btn btn-secondary btn-sm" @onclick:stopPropagation type="button" @onclick="OnEditItemCanceled">Cancel</button>
+                <div class="btn-group" role="group">
+                    <button class="btn btn-primary btn-sm" @onclick:stopPropagation type="submit" disabled="@(!InlineEditTable.IsRowValid)">Kaydet</button>
+                    <button class="btn btn-secondary btn-sm" @onclick:stopPropagation type="button" @onclick="OnEditItemCanceled">Vazgeç</button>
+                </div>
             </div>
         </td>
-
     }
 </tr>
