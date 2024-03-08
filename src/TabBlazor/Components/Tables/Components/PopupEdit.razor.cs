@@ -13,7 +13,7 @@ public partial class PopupEdit<TItem>
 
     protected override void OnParametersSet()
     {
-        popupOptions.Title = Table.IsAddInProgress ? "Add" : "Edit";
+        popupOptions.Title = Table.IsAddInProgress ? "Yeni Veri Ekle" : "Güncelle";
         popupOptions.IsAddInProgress = Table.IsAddInProgress;
         popupOptions.ModalOptions = new ModalOptions { Size = ModalSize.Large };
         popupOptions.CurrentEditItem = Table.CurrentEditItem;

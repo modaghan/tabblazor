@@ -243,7 +243,7 @@ namespace TabBlazor
 
         public async Task LastPage()
         {
-            PageNumber = (int) Math.Ceiling((decimal) TotalCount / PageSize) - 1;
+            PageNumber = (int)Math.Ceiling((decimal)TotalCount / PageSize) - 1;
             await Update();
         }
 
@@ -362,7 +362,7 @@ namespace TabBlazor
             {
                 if (KeyboardNavigation)
                 {
-                    await tabService.PreventDefaultKey(table, "keydown", new[] {"ArrowUp", "ArrowDown"});
+                    await tabService.PreventDefaultKey(table, "keydown", new[] { "ArrowUp", "ArrowDown" });
                 }
 
                 tableInitialized = true;
@@ -454,7 +454,7 @@ namespace TabBlazor
             }
             else
             {
-                tableItem = (Item) Activator.CreateInstance(typeof(Item));
+                tableItem = (Item)Activator.CreateInstance(typeof(Item));
             }
 
             Items.Add(tableItem);

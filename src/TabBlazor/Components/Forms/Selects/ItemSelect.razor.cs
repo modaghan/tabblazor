@@ -21,7 +21,7 @@ namespace TabBlazor
         /// Text to be displayed when no item is selected
         /// </summary>
         [Parameter]
-        public string NoSelectedText { get; set; } = "*Select*";
+        public string NoSelectedText { get; set; } = "*Seçiniz*";
 
         [Parameter] public string NoItemsText { get; set; }
         [Parameter] public bool ShowCheckBoxes { get; set; }
