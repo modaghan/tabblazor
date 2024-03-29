@@ -19,7 +19,8 @@ namespace TabBlazor.Services
         }
 
 
-        private int zIndex = 1200;
+        //private int zIndex = 1200;
+        private int zIndex = 1400;
         private const int zIndexIncrement = 10;
         private int topOffset;
         private const int topOffsetIncrement = 20;
