@@ -26,9 +26,15 @@
 			<PackagePath></PackagePath>
 		</None>
 	</ItemGroup>
+  <PropertyGroup>
+    <SatelliteResourceLanguages>tr</SatelliteResourceLanguages>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnablePrecompressedAssets>false</EnablePrecompressedAssets>
+  </PropertyGroup>
 
 
-	<ItemGroup>
+  <ItemGroup>
 		<SupportedPlatform Include="browser" />
 	</ItemGroup>
 
